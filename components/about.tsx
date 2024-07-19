@@ -23,7 +23,7 @@ export default function About() {
         <span className="font-medium">Computer Science(B.Tech)</span>, I Joined Advertyzment {" "}
         <span className="font-medium">as a backend developer</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
+        'Eureka' moment which comes after a problem which sometimes pains us for days. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">

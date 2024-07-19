@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
+import onlylectures from "@/public/onlylectures.png"
 import Ayurheals from "@/public/Ayurheals.png";
 
 export const links = [
@@ -51,28 +52,36 @@ export const experiencesData = [
     date: "08/2023 - 10/2023",
   },
   {
-    title: "Actively Seeking Software Role",
+    title: "Full Stack Developer",
+    location: "Work from Home",
+    description:
+      "Redesigned Company website, Working on multiple products to be deployed to covert incoming traffic into protential clients",
+    icon: React.createElement(CgWorkAlt),
+    date: "02/2024 - present",
+  },
+  {
+    title: "Seeking Software Role",
     location: "Open to work Anywhere",
     description:
       "I'm now a full-stack developer learning and growing everyday seeking new opportunities,I'm open to full-time, Part-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "10/2023 - present",
+    date: "present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Dawai Dhundo",
+    title: "Only lectures",
     description:
-      "A web-application designed to help users to get medicines froom their nearby stores, promoting local businesses while catering fast and easy access of medicines",
+      "Freelance work for a client(currently down)",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma","GCP"],
-    imageUrl: corpcommentImg,
+    imageUrl: onlylectures,
     projectUrl:"https://ayurheals.vercel.app/"
   },
   {
     title: "Car Price Predictor",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "A machine learning model trained to predict the price of 2nd hand cars based on kms driven, manufature year, model etc (updating ui down)",
     tags: ["Python", "Django", "Machine Learning", "Html/Css", "Javascript"],
     imageUrl: rmtdevImg,
     projectUrl:"https://ayurheals.vercel.app/"
